@@ -28,7 +28,7 @@ public class numbersActivity extends AppCompatActivity {
         words.add("eight");
         words.add("nine");
         words.add("ten");
-
+        words.add("eleven");
         //defining a array-adapter to recycle the view
         ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, words);
         ListView listView = (ListView) findViewById(R.id.list);
