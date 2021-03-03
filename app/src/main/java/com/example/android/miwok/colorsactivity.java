@@ -3,6 +3,9 @@ package com.example.android.miwok;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 public class colorsactivity extends AppCompatActivity {
 
@@ -10,5 +13,24 @@ public class colorsactivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_colorsactivity);
+        ArrayList<Word> colors = new ArrayList<Word>();
+
+        Word w = new Word("red","weṭeṭṭi",R.drawable.color_red);
+        colors.add(w);
+        colors.add(new Word("green","chokokki",R.drawable.color_green));
+        colors.add(new Word("brown","ṭakaakki",R.drawable.color_brown));
+        colors.add(new Word("gray","ṭopoppi",R.drawable.color_gray));
+        colors.add(new Word("black","kululli",R.drawable.color_black));
+        colors.add(new Word("white","kelelli",R.drawable.color_white));
+        colors.add(new Word("dusty yellow","ṭopiisә",R.drawable.color_dusty_yellow));
+        colors.add(new Word("mustard yellow","chiwiiṭә",R.drawable.color_mustard_yellow));
+
+
+
+        //defining a array-adapter to recycle the view
+        WordAdapter itemsAdapter = new WordAdapter(this, colors,R.color.category_colors);
+        ListView listView = (ListView) findViewById(R.id.list);
+        listView.setAdapter(itemsAdapter);
+
     }
 }
