@@ -1,2 +1,18 @@
-# miwok
+# Miwok App
 ![screens](https://lh3.googleusercontent.com/j748sPufjA1dFoaO9_jkPYNwPHJne5YbKi3x0ntzEWBX3W1qNDGbCgeLtj93JDcXD6LY6kqC5n5JAX_21LlP=s0#w=1224&h=421)
+
+Miwok App
+This app displays lists of vocabulary words for the user to learn the Miwok language. Used in a Udacity course in the Beginning Android Nanodegree.
+
+
+This sample uses the Gradle build system. To build this project, use the "gradlew build" command or use "Import Project" in Android Studio.
+
+
+License
+Copyright 2016 The Android Open Source Project, Inc.
+
+Licensed to the Apache Software Foundation (ASF) under one or more contributor license agreements. See the NOTICE file distributed with this work for additional information regarding copyright ownership. The ASF licenses this file to you under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
