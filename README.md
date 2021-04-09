@@ -8,7 +8,7 @@ This app displays lists of vocabulary words for the user to learn the Miwok lang
 This sample uses the Gradle build system. To build this project, use the "gradlew build" command or use "Import Project" in Android Studio.
 
 
-License
+#License
 Copyright 2016 The Android Open Source Project, Inc.
 
 Licensed to the Apache Software Foundation (ASF) under one or more contributor license agreements. See the NOTICE file distributed with this work for additional information regarding copyright ownership. The ASF licenses this file to you under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
